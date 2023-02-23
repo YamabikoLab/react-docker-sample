@@ -1,0 +1,10 @@
+version: '3'
+services:
+  react-docker-sample:
+    container_name: react-docker-sample
+    image: node:18
+    tty: true
+    volumes:
+      - .:/home/node/app
+    ports:
+      - "5173:5173"
