@@ -15,6 +15,11 @@
     "sourceType": "module",
     "project": "frontend/tsconfig.json"
   },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "plugins": ["react", "react-hooks"],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
